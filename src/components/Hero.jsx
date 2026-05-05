@@ -5,7 +5,7 @@ const heroBg = "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=8
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-32 md:pt-20 overflow-hidden">
       {/* Background with animated overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -42,7 +42,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-display font-black leading-[1.1] mb-8 gradient-text"
+            className="text-4xl md:text-7xl lg:text-8xl font-display font-black leading-[1.1] mb-8 gradient-text px-2"
           >
             Give Your Child the <br />
             <span className="text-brand-orange">Future</span> They Deserve
@@ -74,7 +74,7 @@ const Hero = () => {
               Book a School Visit
             </button>
           </motion.div>
-          
+        </div>
       </div>
     </section>
   );

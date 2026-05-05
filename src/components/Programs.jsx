@@ -31,9 +31,9 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section id="programs" className="section-padding bg-white">
+    <section id="programs" className="section-padding bg-white scroll-mt-24">
       <div className="container mx-auto">
-        <div className="text-center max-w-3xl mx-auto mb-20">
+        <div className="text-center max-w-3xl mx-auto mb-20 px-4">
           <motion.h4
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ const Programs = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-black mb-6"
+            className="text-3xl md:text-5xl font-black mb-6 leading-tight"
           >
             Our Specialized Programs
           </motion.h2>
@@ -62,7 +62,7 @@ const Programs = () => {
           </motion.p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
           {programs.map((program, index) => (
             <motion.div
               key={index}
@@ -71,7 +71,7 @@ const Programs = () => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -10 }}
-              className={`relative p-8 rounded-[2.5rem] ${program.color} text-white transition-all duration-500 shadow-xl hover:shadow-2xl border-none`}
+              className={`relative p-10 rounded-[2.5rem] ${program.color} text-white transition-all duration-500 shadow-xl hover:shadow-2xl border-none`}
             >
               <div className="relative z-10">
                 <div className="w-16 h-16 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center mb-6 text-white border border-white/20">

@@ -22,12 +22,12 @@ const Admissions = () => {
               Admissions Open 2026-27
             </div>
             
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight">
+            <h2 className="text-3xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight">
               Start Your Journey <br />
               to <span className="text-brand-green">Excellence</span> Today.
             </h2>
             
-            <p className="text-xl text-white/70 mb-12 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-white/70 mb-12 max-w-2xl mx-auto px-4">
               Limited seats available for the upcoming academic session. Ensure your child's future in the most advanced learning environment.
             </p>
 

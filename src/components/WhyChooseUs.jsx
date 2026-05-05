@@ -32,11 +32,11 @@ const reasons = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="section-padding bg-brand-blue text-white overflow-hidden relative">
+    <section id="why-choose-us" className="section-padding bg-brand-blue text-white overflow-hidden relative scroll-mt-24">
       <div className="absolute top-0 right-0 w-96 h-96 bg-brand-green/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-orange/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
-      <div className="container mx-auto relative z-10">
+      <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-20">
           <div className="lg:w-1/2">
             <motion.h4
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl md:text-5xl font-black mb-8 leading-tight"
+              className="text-3xl md:text-5xl font-black mb-8 leading-tight"
             >
               Excellence is not an act, <br />
               but a <span className="text-brand-green">habit</span>.

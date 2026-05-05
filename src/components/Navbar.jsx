@@ -94,7 +94,7 @@ const Navbar = () => {
             exit={{ opacity: 0, y: -20 }}
             className="absolute top-full left-6 right-6 mt-4 md:hidden"
           >
-            <div className="glass rounded-3xl p-6 flex flex-col gap-4 shadow-2xl">
+            <div className="glass-intense rounded-3xl p-6 flex flex-col gap-4 shadow-2xl bg-white/90 backdrop-blur-2xl">
               {navLinks.map((link) => (
                 <a 
                   key={link.name} 

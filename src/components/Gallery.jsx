@@ -39,8 +39,8 @@ const Gallery = () => {
   return (
     <section id="gallery" className="section-padding bg-white">
       <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
-          <div className="max-w-2xl">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8 text-center md:text-left">
+          <div className="mx-auto md:mx-0">
             <motion.h4
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}

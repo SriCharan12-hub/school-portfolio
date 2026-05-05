@@ -22,7 +22,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="section-padding bg-slate-50/50 relative overflow-hidden">
+    <section id="about" className="section-padding bg-slate-50/50 relative overflow-hidden scroll-mt-24">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           {/* Content */}
