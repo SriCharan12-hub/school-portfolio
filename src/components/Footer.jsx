@@ -1,5 +1,5 @@
 import React from 'react';
-const logo = "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=100&auto=format&fit=crop";
+const logo = "https://res.cloudinary.com/sricharan/image/upload/v1777995576/IMG-20260324-WA0038_3.jpg_vfcycl.jpg";
 
 const Footer = () => {
   return (
@@ -11,7 +11,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-8">
-              <img src={logo} alt="BrainSeed Logo" className="w-10 h-10 object-contain brightness-0 invert" />
+              <div className="w-10 h-10 rounded-lg overflow-hidden border border-white/20">
+                <img src={logo} alt="BrainSeed Logo" className="w-full h-full object-cover" />
+              </div>
               <span className="text-2xl font-display font-bold tracking-tight">
                 Brain<span className="text-brand-green">Seed</span>
               </span>
@@ -24,7 +26,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8">Quick Links</h4>
             <ul className="space-y-4">
-              {['About Us', 'Programs', 'Admissions', 'Gallery', 'Careers'].map((link) => (
+              {['About Us', 'Programs', 'Admissions', 'Gallery', 'Location'].map((link) => (
                 <li key={link}>
                   <a href="#" className="text-white/50 hover:text-brand-green transition-colors duration-300 flex items-center gap-2 group">
                     <span className="w-1 h-1 bg-brand-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, Calendar } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-const logo = "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=100&auto=format&fit=crop";
+const logo = "https://res.cloudinary.com/sricharan/image/upload/v1777995576/IMG-20260324-WA0038_3.jpg_vfcycl.jpg";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Programs', href: '#programs' },
     { name: 'Gallery', href: '#gallery' },
-    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'Location', href: '#location' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -35,11 +35,13 @@ const Navbar = () => {
         }`}>
           {/* Logo */}
           <a href="/" className="flex items-center gap-3 group">
-            <img 
-              src={logo} 
-              alt="BrainSeed Logo" 
-              className="w-10 h-10 object-contain transition-transform duration-500 group-hover:rotate-12" 
-            />
+            <div className="w-12 h-12 rounded-xl overflow-hidden shadow-sm border border-slate-100 transition-transform duration-500 group-hover:rotate-6">
+              <img 
+                src={logo} 
+                alt="BrainSeed Logo" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
             <span className="text-xl font-display font-bold tracking-tight text-brand-blue">
               Brain<span className="text-brand-green">Seed</span>
             </span>
@@ -63,7 +65,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-4">
             <button className="flex items-center gap-2 text-sm font-bold text-brand-blue px-4 py-2 hover:text-brand-green transition-colors">
               <Phone size={16} />
-              <span>+1 (234) 567-890</span>
+              <span>9492279868</span>
             </button>
             <a 
               href="#admissions" 

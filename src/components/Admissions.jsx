@@ -31,20 +31,10 @@ const Admissions = () => {
               Limited seats available for the upcoming academic session. Ensure your child's future in the most advanced learning environment.
             </p>
 
-            <div className="grid sm:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/10">
-                <Calendar className="mx-auto mb-4 text-brand-green" />
-                <div className="text-2xl font-bold mb-1 tracking-tight">July 15, 2026</div>
-                <div className="text-xs text-white/50 uppercase tracking-widest font-bold">Session Starts</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/10">
-                <Users className="mx-auto mb-4 text-brand-orange" />
-                <div className="text-2xl font-bold mb-1 tracking-tight">Only 15 Seats</div>
-                <div className="text-xs text-white/50 uppercase tracking-widest font-bold">Per Classroom</div>
-              </div>
+            <div className="grid sm:grid-cols-1 gap-8 max-w-sm mx-auto mb-16">
               <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/10">
                 <PhoneCall className="mx-auto mb-4 text-brand-green" />
-                <div className="text-2xl font-bold mb-1 tracking-tight">+1 800 123 456</div>
+                <div className="text-2xl font-bold mb-1 tracking-tight">9492279868</div>
                 <div className="text-xs text-white/50 uppercase tracking-widest font-bold">Admission Help</div>
               </div>
             </div>

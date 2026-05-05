@@ -6,32 +6,32 @@ const images = [
   {
     src: classroomImg,
     category: 'Classrooms',
-    title: 'Modern Smart Classroom'
+    title: 'Smart Digital Classrooms'
   },
   {
     src: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800',
     category: 'Sports',
-    title: 'Annual Sports Day'
+    title: 'Sports & Fitness Activities'
   },
   {
     src: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800',
-    category: 'Activities',
-    title: 'Science Fair 2025'
+    category: 'Academics',
+    title: 'Advanced Academic Foundation'
   },
   {
     src: 'https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&q=80&w=800',
-    category: 'Library',
-    title: 'Digital Resource Center'
+    category: 'Learning',
+    title: 'Activity-Based Learning Centers'
   },
   {
     src: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800',
-    category: 'Events',
-    title: 'Cultural Festival'
+    category: 'Holistic',
+    title: 'Value-Based Education'
   },
   {
     src: 'https://images.unsplash.com/photo-1524486361537-8ad15938e1a3?auto=format&fit=crop&q=80&w=800',
-    category: 'Labs',
-    title: 'Computer Science Lab'
+    category: 'Leadership',
+    title: 'Personality Development'
   }
 ];
 

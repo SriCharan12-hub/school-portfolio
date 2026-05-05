@@ -1,12 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Stats from './components/Stats';
 import About from './components/About';
 import Programs from './components/Programs';
 import WhyChooseUs from './components/WhyChooseUs';
 import Gallery from './components/Gallery';
-import Testimonials from './components/Testimonials';
+import Map from './components/Map';
 import Admissions from './components/Admissions';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -17,12 +16,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Stats />
         <About />
         <Programs />
         <WhyChooseUs />
         <Gallery />
-        <Testimonials />
+        <Map />
         <Admissions />
         <Contact />
       </main>

@@ -44,14 +44,14 @@ const About = () => {
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 relative mb-10">
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-brand-green/20" />
-                <p className="text-brand-blue/80 italic mb-6">
-                  "Education is not the filling of a pail, but the lighting of a fire. At BrainSeed, we aim to light that fire in every student."
+                <p className="text-brand-blue/80 font-display font-bold text-xl mb-6">
+                  "Your Vision. Your Commitment. Your Child's Bright Future."
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-slate-200"></div>
                   <div>
-                    <div className="font-bold text-brand-blue">Dr. Sarah Johnson</div>
-                    <div className="text-sm text-brand-blue/50">Founder & Principal</div>
+                    <div className="font-bold text-brand-blue">K. Ramesh</div>
+                    <div className="text-sm text-brand-blue/50">Founder / Director</div>
                   </div>
                 </div>
               </div>

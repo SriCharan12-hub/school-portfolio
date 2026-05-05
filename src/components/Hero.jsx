@@ -29,6 +29,15 @@ const Hero = () => {
             <span className="text-sm font-bold tracking-wider uppercase">Admissions Open 2026-27</span>
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.1 }}
+            className="text-brand-blue/40 font-bold text-xs tracking-[0.2em] mb-4 uppercase"
+          >
+            Recognized by Govt. of Telangana
+          </motion.div>
+
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -66,32 +75,6 @@ const Hero = () => {
             </button>
           </motion.div>
           
-          {/* Trust Indicators */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            className="mt-20 pt-10 border-t border-slate-200/50 flex flex-wrap justify-center gap-10 md:gap-20 opacity-50 grayscale hover:grayscale-0 transition-all duration-500"
-          >
-            <div className="font-display font-bold text-lg">IIT FOUNDATION</div>
-            <div className="font-display font-bold text-lg">NEET COACHING</div>
-            <div className="font-display font-bold text-lg">SPORTS EXCELLENCE</div>
-            <div className="font-display font-bold text-lg">LIFE SKILLS</div>
-          </motion.div>
-        </div>
-      </div>
-
-      {/* Floating Elements */}
-      <div className="absolute bottom-20 left-10 md:left-20 animate-float hidden lg:block">
-        <div className="glass p-4 rounded-2xl flex items-center gap-4 shadow-2xl">
-          <div className="w-12 h-12 rounded-full bg-brand-green/20 flex items-center justify-center text-brand-green">
-            <Star fill="currentColor" />
-          </div>
-          <div>
-            <div className="font-bold text-sm">Top Rated</div>
-            <div className="text-xs text-brand-blue/50">NextGen School 2025</div>
-          </div>
-        </div>
       </div>
     </section>
   );
