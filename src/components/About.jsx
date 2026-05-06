@@ -37,25 +37,25 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <h4 className="text-brand-green font-bold uppercase tracking-widest text-sm mb-4">
-                About BrainSeed
+                About brainseed nextgen school
               </h4>
               <h2 className="text-4xl md:text-5xl font-black mb-8 leading-tight">
                 Cultivating Minds, <br />
                 <span className="text-brand-orange">Inspiring</span> Futures.
               </h2>
-              <p className="text-lg text-brand-blue/60 mb-10 leading-relaxed max-w-xl">
+              <p className="text-lg text-brand-blue/90 mb-10 leading-relaxed max-w-xl">
                 Founded on the principles of holistic growth and academic rigor,
-                BrainSeed is more than just a school. We are a community
-                dedicated to nurturing the next generation of thinkers, doers,
-                and leaders.
+                brainseed nextgen school is more than just a school. We are a
+                community dedicated to nurturing the next generation of
+                thinkers, doers, and leaders.
               </p>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 relative mb-10">
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-brand-green/20" />
                 <p className="text-brand-blue/80 italic mb-6">
                   "Education is not the filling of a pail, but the lighting of a
-                  fire. At BrainSeed, we aim to light that fire in every
-                  student."
+                  fire. At brainseed nextgen school, we aim to light that fire
+                  in every student."
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-green/30 shadow-md bg-white flex-shrink-0">
@@ -67,7 +67,7 @@ const About = () => {
                   </div>
                   <div>
                     <div className="font-bold text-brand-blue">K. Ramesh</div>
-                    <div className="text-sm text-brand-blue/50">
+                    <div className="text-sm text-brand-blue/80">
                       Founder / Director
                     </div>
                   </div>
@@ -90,7 +90,7 @@ const About = () => {
                 <div className="p-4 rounded-2xl bg-slate-50">{card.icon}</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-                  <p className="text-brand-blue/60 leading-relaxed">
+                  <p className="text-brand-blue/85 leading-relaxed">
                     {card.desc}
                   </p>
                 </div>

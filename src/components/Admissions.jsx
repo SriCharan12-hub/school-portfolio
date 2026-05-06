@@ -30,7 +30,7 @@ const Admissions = () => {
               to <span className="text-brand-green">Excellence</span> Today.
             </h2>
 
-            <p className="text-xl text-white/70 mb-12 max-w-2xl mx-auto">
+            <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
               Limited seats available for the upcoming academic session. Ensure
               your child's future in the most advanced learning environment.
             </p>
@@ -41,7 +41,7 @@ const Admissions = () => {
                 <div className="text-2xl font-bold mb-1 tracking-tight">
                   9492279868
                 </div>
-                <div className="text-xs text-white/50 uppercase tracking-widest font-bold">
+                <div className="text-xs text-white/80 uppercase tracking-widest font-bold">
                   Admission Help
                 </div>
               </div>

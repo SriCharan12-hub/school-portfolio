@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
               viewport={{ once: true }}
               className="text-brand-green font-bold uppercase tracking-widest text-sm mb-4"
             >
-              Why BrainSeed?
+              Why brainseed nextgen school?
             </motion.h4>
             <motion.h2
               initial={{ opacity: 0, x: -30 }}
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="text-xl text-white/60 mb-12"
+              className="text-xl text-white/90 mb-12"
             >
               We believe in creating an environment where excellence is the
               standard, and growth is inevitable.
@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
                     {reason.icon}
                   </div>
                   <h3 className="text-xl font-bold">{reason.title}</h3>
-                  <p className="text-white/50 leading-relaxed">{reason.desc}</p>
+                  <p className="text-white/80 leading-relaxed">{reason.desc}</p>
                 </motion.div>
               ))}
             </div>

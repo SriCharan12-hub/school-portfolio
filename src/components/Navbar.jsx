@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div
           className={`glass rounded-full px-6 py-3 flex items-center justify-between transition-all duration-500 ${
-            isScrolled ? "shadow-xl" : "bg-white/40"
+            isScrolled ? "shadow-xl" : "bg-white/80"
           }`}
         >
           {/* Logo */}
@@ -41,12 +41,12 @@ const Navbar = () => {
             <div className="w-12 h-12 rounded-xl overflow-hidden shadow-sm border border-slate-100 transition-transform duration-500 group-hover:rotate-6">
               <img
                 src={logo}
-                alt="BrainSeed Logo"
+                alt="brainseed nextgen school Logo"
                 className="w-full h-full object-cover"
               />
             </div>
             <span className="text-xl font-display font-bold tracking-tight text-brand-blue">
-              Brainseed The NextGen<span className="text-brand-green">School</span>
+              brainseed nextgen school The NextGen School
             </span>
           </a>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-semibold text-brand-blue/70 hover:text-brand-blue transition-colors relative group"
+                className="text-sm font-semibold text-brand-blue/85 hover:text-brand-blue transition-colors relative group"
               >
                 {link.name}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-green transition-all duration-300 group-hover:w-full"></span>

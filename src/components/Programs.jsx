@@ -68,7 +68,7 @@ const Programs = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-blue/60"
+            className="text-lg text-brand-blue/90"
           >
             We offer a diverse range of programs designed to cater to the unique
             interests and strengths of every student.
@@ -86,13 +86,15 @@ const Programs = () => {
               className={`relative group p-8 rounded-[2.5rem] ${program.lightBg} border border-slate-100 transition-all duration-500 hover:shadow-2xl overflow-hidden`}
             >
               <div className="relative z-10">
-                <div className={`w-16 h-16 rounded-2xl ${program.iconBg} shadow-sm flex items-center justify-center mb-6 ${program.accent}`}>
+                <div
+                  className={`w-16 h-16 rounded-2xl ${program.iconBg} shadow-sm flex items-center justify-center mb-6 ${program.accent}`}
+                >
                   {program.icon}
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-blue">
                   {program.title}
                 </h3>
-                <p className="text-brand-blue/60 leading-relaxed mb-8">
+                <p className="text-brand-blue/85 leading-relaxed mb-8">
                   {program.desc}
                 </p>
               </div>

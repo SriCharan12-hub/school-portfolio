@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg overflow-hidden border border-white/20">
                 <img
                   src={logo}
-                  alt="BrainSeed Logo"
+                  alt="brainseed nextgen school Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                 Brain<span className="text-brand-green">Seed</span>
               </span>
             </div>
-            <p className="text-white/50 leading-relaxed mb-8 max-w-xs">
+            <p className="text-white/85 leading-relaxed mb-8 max-w-xs">
               Empowering students with strong concepts, discipline, and
               futuristic skills to lead the next generation.
             </p>
@@ -42,7 +42,7 @@ const Footer = () => {
                 <li key={link}>
                   <a
                     href="#"
-                    className="text-white/50 hover:text-brand-green transition-colors duration-300 flex items-center justify-center md:justify-start gap-2 group"
+                    className="text-white/80 hover:text-brand-green transition-colors duration-300 flex items-center justify-center md:justify-start gap-2 group"
                   >
                     <span className="w-1 h-1 bg-brand-green rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
                     {link}
@@ -65,7 +65,7 @@ const Footer = () => {
                 <li key={link}>
                   <a
                     href="#"
-                    className="text-white/50 hover:text-brand-green transition-colors duration-300 flex items-center justify-center md:justify-start gap-2 group"
+                    className="text-white/80 hover:text-brand-green transition-colors duration-300 flex items-center justify-center md:justify-start gap-2 group"
                   >
                     <span className="w-1 h-1 bg-brand-orange rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
                     {link}
@@ -74,15 +74,13 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
-          
         </div>
 
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-white/30 text-sm">
-            © 2026 BrainSeed NextGen School. All rights reserved.
+          <div className="text-white/60 text-sm">
+            © 2026 brainseed nextgen school NextGen School. All rights reserved.
           </div>
-          <div className="flex gap-8 text-white/30 text-sm">
+          <div className="flex gap-8 text-white/60 text-sm">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy
             </a>

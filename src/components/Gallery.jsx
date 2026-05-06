@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 const classroomImg =
-  "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1920&auto=format&fit=crop";
+  "https://res.cloudinary.com/sricharan/image/upload/v1778087607/classroom_bmicbe.jpg";
 
 const images = [
   {
@@ -10,17 +10,17 @@ const images = [
     title: "Modern Smart Classroom",
   },
   {
-    src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800",
+    src: "https://res.cloudinary.com/sricharan/image/upload/v1778087589/teaching_fj4txy.jpg",
     category: "Sports",
     title: "Annual Sports Day",
   },
   {
-    src: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800",
+    src: "https://res.cloudinary.com/sricharan/image/upload/v1778087595/students_nfqrqz.jpg",
     category: "Activities",
     title: "Science Fair 2025",
   },
   {
-    src: "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&q=80&w=800",
+    src: "https://res.cloudinary.com/sricharan/image/upload/v1778087601/ground_qli3jt.jpg",
     category: "Library",
     title: "Digital Resource Center",
   },
@@ -92,5 +92,6 @@ const Gallery = () => {
     </section>
   );
 };
+
 
 export default Gallery;

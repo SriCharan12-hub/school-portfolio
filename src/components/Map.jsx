@@ -32,7 +32,7 @@ const Map = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-blue/60"
+            className="text-lg text-brand-blue/90"
           >
             Conveniently located in the heart of Science City, our campus is
             easily accessible and provides a safe, serene environment for
@@ -55,7 +55,7 @@ const Map = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="BrainSeed School Location"
+            title="brainseed nextgen school School Location"
             className="grayscale group-hover:grayscale-0 transition-all duration-700 contrast-125"
           ></iframe>
 
@@ -68,14 +68,13 @@ const Map = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-brand-blue mb-2">
-                    BrainSeed School
+                    brainseed nextgen school School
                   </h3>
-                  <p className="text-brand-blue/60 leading-relaxed">
+                  <p className="text-brand-blue/85 leading-relaxed">
                     Ramachandra Residency, Hyderabad Road,
                     <br />
                     Beside CKR Function Hall, Kalwakurthy.
                   </p>
-
                 </div>
               </div>
             </div>

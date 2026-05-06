@@ -41,7 +41,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-blue/60 mb-12"
+            className="text-lg text-brand-blue/90 mb-12"
           >
             Have questions? We're here to help you. Reach out to us through
             any of these channels.
@@ -72,7 +72,7 @@ const Contact = () => {
                   {item.icon}
                 </div>
                 <div>
-                  <div className="text-sm font-bold text-brand-blue/40 uppercase tracking-widest">
+                  <div className="text-sm font-bold text-brand-blue/75 uppercase tracking-widest">
                     {item.title}
                   </div>
                   <div className="text-lg font-bold text-brand-blue">
