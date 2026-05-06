@@ -7,7 +7,7 @@ const heroBg =
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-32 md:pt-40 overflow-hidden">
       {/* Background with animated overlay */}
       <div className="absolute inset-0 z-0">
         <img
