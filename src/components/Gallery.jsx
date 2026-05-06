@@ -60,15 +60,6 @@ const Gallery = () => {
               Captured Moments
             </motion.h2>
           </div>
-          <motion.button
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-brand-blue font-bold flex items-center gap-2 hover:text-brand-green transition-colors"
-          >
-            View Full Gallery
-            <div className="w-8 h-0.5 bg-brand-blue"></div>
-          </motion.button>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
