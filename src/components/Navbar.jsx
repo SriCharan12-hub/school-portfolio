@@ -46,7 +46,7 @@ const Navbar = () => {
               />
             </div>
             <span className="text-xl font-display font-bold tracking-tight text-brand-blue">
-              brainseed nextgen school The NextGen School
+              Brainseed The NextGen School
             </span>
           </a>
 

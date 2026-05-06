@@ -20,7 +20,7 @@ const Footer = () => {
                 />
               </div>
               <span className="text-2xl font-display font-bold tracking-tight">
-                Brain<span className="text-brand-green">Seed</span>
+                Brainseed The NextGen School
               </span>
             </div>
             <p className="text-white/85 leading-relaxed mb-8 max-w-xs">
