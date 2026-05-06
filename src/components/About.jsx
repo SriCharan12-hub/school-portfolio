@@ -58,11 +58,11 @@ const About = () => {
                   student."
                 </p>
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-green/20 shadow-md bg-slate-50">
-                    <img 
-                      src="https://res.cloudinary.com/sricharan/image/upload/f_auto,q_auto/v1778040818/WhatsApp_Image_2026-03-31_at_5.40.17_PM__1_-removebg-preview_1_qacruu.png" 
-                      alt="K. Ramesh - Founder" 
-                      className="w-full h-full object-cover scale-110"
+                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-green/30 shadow-md bg-white flex-shrink-0">
+                    <img
+                      src="https://res.cloudinary.com/sricharan/image/upload/f_auto,q_auto,g_face,c_thumb,w_200,h_200,z_0.7/v1778040818/WhatsApp_Image_2026-03-31_at_5.40.17_PM__1_-removebg-preview_1_qacruu.png"
+                      alt="K. Ramesh - Founder"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   <div>

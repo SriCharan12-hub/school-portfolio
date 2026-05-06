@@ -95,10 +95,6 @@ const Programs = () => {
                 <p className="text-brand-blue/60 leading-relaxed mb-8">
                   {program.desc}
                 </p>
-                <div className={`flex items-center gap-2 font-bold ${program.accent} cursor-pointer group/link`}>
-                  Learn More
-                  <div className={`w-6 h-0.5 bg-current transition-all duration-300 group-hover/link:w-10`}></div>
-                </div>
               </div>
             </motion.div>
           ))}

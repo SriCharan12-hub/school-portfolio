@@ -48,7 +48,7 @@ const Map = () => {
         >
           {/* Google Maps Iframe for Kalwakurthy location */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.234394014902!2d78.48912837583606!3d16.1417533845453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb9f7831885f82f%3A0xc47b97368e7b9e76!2sCKR%20FUNCTION%20HALL!5e0!3m2!1sen!2sin!4v1714840000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.868642834722!2d78.499972169401!3d16.68197260222709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bca5c9fa437dc47%3A0xd0772a430cff62a7!2sRamachandra%20Residency!5e0!3m2!1sen!2sin!4v1778042819307!5m2!1sen!2sin"
             width="100%"
             height="500"
             style={{ border: 0 }}
@@ -75,14 +75,7 @@ const Map = () => {
                     <br />
                     Beside CKR Function Hall, Kalwakurthy.
                   </p>
-                  <a
-                    href="https://maps.app.goo.gl/3fX3P6f3G6f3G6f3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-4 text-brand-green font-bold hover:underline"
-                  >
-                    Get Directions →
-                  </a>
+
                 </div>
               </div>
             </div>
