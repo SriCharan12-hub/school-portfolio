@@ -11,8 +11,8 @@ const images = [
   },
   {
     src: "https://res.cloudinary.com/sricharan/image/upload/v1778087589/teaching_fj4txy.jpg",
-    category: "Sports",
-    title: "Annual Sports Day",
+    category: "Teaching",
+    title: "Interactive Learning",
   },
   {
     src: "https://res.cloudinary.com/sricharan/image/upload/v1778087595/students_nfqrqz.jpg",
