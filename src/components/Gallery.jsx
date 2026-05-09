@@ -21,8 +21,8 @@ const images = [
   },
   {
     src: "https://res.cloudinary.com/sricharan/image/upload/v1778087601/ground_qli3jt.jpg",
-    category: "Library",
-    title: "Digital Resource Center",
+    category: "Ground",
+    title: "Vast Playground Area",
   },
   {
     src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800",
