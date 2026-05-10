@@ -16,8 +16,8 @@ const images = [
   },
   {
     src: "https://res.cloudinary.com/sricharan/image/upload/v1778087595/students_nfqrqz.jpg",
-    category: "Activities",
-    title: "Science Fair 2025",
+    category: "Students",
+    title: "Students Cricket Team",
   },
   {
     src: "https://res.cloudinary.com/sricharan/image/upload/v1778087601/ground_qli3jt.jpg",
