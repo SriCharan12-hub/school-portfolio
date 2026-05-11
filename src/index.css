@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 @theme {
   --color-brand-blue: #0A2540;
   --color-brand-green: #22C55E;
@@ -16,7 +18,7 @@
   }
   
   body {
-    @apply bg-brand-light text-brand-blue font-sans antialiased selection:bg-brand-green selection:text-white;
+    @apply bg-brand-light dark:bg-[#0A0F1A] text-brand-blue dark:text-slate-100 font-sans antialiased selection:bg-brand-green selection:text-white transition-colors duration-300;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -26,19 +28,19 @@
 
 @layer components {
   .glass {
-    @apply bg-white/85 backdrop-blur-md border border-white/30 shadow-lg;
+    @apply bg-white/85 dark:bg-[#0F172A]/85 backdrop-blur-md border border-white/30 dark:border-white/10 shadow-lg dark:shadow-[0_8px_30px_rgb(0,0,0,0.5)];
   }
   
   .glass-dark {
-    @apply bg-brand-blue/80 backdrop-blur-md border border-white/10 shadow-xl;
+    @apply bg-brand-blue/80 dark:bg-black/60 backdrop-blur-md border border-white/10 shadow-xl;
   }
 
   .btn-primary {
-    @apply px-8 py-4 bg-brand-blue text-white rounded-full font-semibold transition-all duration-300 hover:bg-brand-blue/90 hover:scale-105 hover:shadow-[0_0_20px_rgba(10,37,64,0.3)] active:scale-95;
+    @apply px-8 py-4 bg-brand-blue dark:bg-white text-white dark:text-brand-blue rounded-full font-semibold transition-all duration-300 hover:bg-brand-blue/90 dark:hover:bg-slate-200 hover:scale-105 hover:shadow-[0_0_20px_rgba(10,37,64,0.3)] dark:hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] active:scale-95;
   }
 
   .btn-secondary {
-    @apply px-8 py-4 bg-white text-brand-blue border border-brand-blue/10 rounded-full font-semibold transition-all duration-300 hover:bg-slate-50 hover:scale-105 hover:shadow-lg active:scale-95;
+    @apply px-8 py-4 bg-white dark:bg-[#1E293B] text-brand-blue dark:text-white border border-brand-blue/10 dark:border-white/10 rounded-full font-semibold transition-all duration-300 hover:bg-slate-50 dark:hover:bg-[#334155] hover:scale-105 hover:shadow-lg active:scale-95;
   }
 
   .btn-accent {
@@ -46,7 +48,7 @@
   }
 
   .card-premium {
-    @apply p-8 bg-white rounded-3xl border border-slate-100 shadow-sm transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:border-brand-green/20;
+    @apply p-8 bg-white dark:bg-[#1E293B] rounded-3xl border border-slate-100 dark:border-white/10 shadow-sm dark:shadow-md transition-all duration-500 hover:shadow-2xl dark:hover:shadow-2xl hover:-translate-y-2 hover:border-brand-green/20 dark:hover:border-brand-green/40;
   }
 
   .gradient-text-light {

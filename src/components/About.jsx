@@ -15,7 +15,7 @@ const About = () => {
       desc: "To be the global benchmark for excellence in education, where every child realizes their full potential.",
     },
     {
-      icon: <Award className="text-brand-blue" />,
+      icon: <Award className="text-brand-blue dark:text-slate-100" />,
       title: "Core Values",
       desc: "Innovation, Discipline, Integrity, and Compassion are the pillars that support our academic community.",
     },
@@ -24,7 +24,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="section-padding bg-slate-50/50 relative overflow-hidden"
+      className="section-padding bg-slate-50/50 dark:bg-slate-900/50 relative overflow-hidden"
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-16">
@@ -43,22 +43,22 @@ const About = () => {
                 Cultivating Minds, <br />
                 <span className="text-brand-orange">Inspiring</span> Futures.
               </h2>
-              <p className="text-lg text-brand-blue/90 mb-10 leading-relaxed max-w-xl">
+              <p className="text-lg text-brand-blue/90 dark:text-slate-300 mb-10 leading-relaxed max-w-xl">
                 Founded on the principles of holistic growth and academic rigor,
                 brainseed nextgen school is more than just a school. We are a
                 community dedicated to nurturing the next generation of
                 thinkers, doers, and leaders.
               </p>
 
-              <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 relative mb-10">
+              <div className="bg-white dark:bg-[#1E293B] p-8 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 relative mb-10">
                 <Quote className="absolute -top-4 -left-4 w-12 h-12 text-brand-green/20" />
-                <p className="text-brand-blue/80 italic mb-6">
+                <p className="text-brand-blue/80 dark:text-slate-300 italic mb-6">
                   "Education is not the filling of a pail, but the lighting of a
                   fire. At brainseed nextgen school, we aim to light that fire
                   in every student."
                 </p>
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-green/30 shadow-md bg-white flex-shrink-0">
+                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-green/30 shadow-md bg-white dark:bg-[#1E293B] flex-shrink-0">
                     <img
                       src="https://res.cloudinary.com/sricharan/image/upload/f_auto,q_auto,g_face,c_thumb,w_200,h_200,z_0.7/v1778040818/WhatsApp_Image_2026-03-31_at_5.40.17_PM__1_-removebg-preview_1_qacruu.png"
                       alt="K. Ramesh - Founder"
@@ -66,8 +66,8 @@ const About = () => {
                     />
                   </div>
                   <div>
-                    <div className="font-bold text-brand-blue">K. Ramesh</div>
-                    <div className="text-sm text-brand-blue/80">
+                    <div className="font-bold text-brand-blue dark:text-slate-100">K. Ramesh</div>
+                    <div className="text-sm text-brand-blue/80 dark:text-slate-300">
                       Founder / Director
                     </div>
                   </div>
@@ -87,10 +87,10 @@ const About = () => {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="card-premium flex items-start gap-6"
               >
-                <div className="p-4 rounded-2xl bg-slate-50">{card.icon}</div>
+                <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900">{card.icon}</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">{card.title}</h3>
-                  <p className="text-brand-blue/85 leading-relaxed">
+                  <p className="text-brand-blue/85 dark:text-slate-300 leading-relaxed">
                     {card.desc}
                   </p>
                 </div>

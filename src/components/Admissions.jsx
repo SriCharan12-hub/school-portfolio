@@ -6,7 +6,7 @@ const Admissions = () => {
   return (
     <section
       id="admissions"
-      className="section-padding bg-white relative overflow-hidden"
+      className="section-padding bg-white dark:bg-[#1E293B] relative overflow-hidden"
     >
       <div className="container mx-auto">
         <div className="bg-gradient-to-br from-brand-blue to-blue-900 rounded-[4rem] p-12 md:p-20 relative overflow-hidden text-center text-white shadow-2xl">
@@ -41,7 +41,7 @@ const Admissions = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="tel:+919492279868"
-                className="w-full sm:w-auto px-10 py-5 bg-white text-brand-blue rounded-full font-black flex items-center justify-center gap-3 shadow-xl hover:bg-slate-50 transition-all duration-300 group"
+                className="w-full sm:w-auto px-10 py-5 bg-white dark:bg-[#1E293B] text-brand-blue dark:text-slate-100 rounded-full font-black flex items-center justify-center gap-3 shadow-xl hover:bg-slate-50 dark:hover:bg-slate-900 transition-all duration-300 group"
               >
                 <PhoneCall size={24} className="text-brand-green group-hover:rotate-12 transition-transform" />
                 <span className="text-lg">Call Us Now</span>

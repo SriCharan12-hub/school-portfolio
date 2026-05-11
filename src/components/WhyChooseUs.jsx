@@ -11,12 +11,12 @@ const reasons = [
   {
     title: "Regular Assessments & Progress",
     desc: "Parents stay informed through regular tracking, ensuring children stay ahead.",
-    icon: <ShieldCheck className="text-brand-blue" />,
+    icon: <ShieldCheck className="text-white" />,
   },
   {
     title: "Focus on Discipline & Values",
     desc: "Building confidence, character, and leadership through core values.",
-    icon: <ShieldCheck className="text-brand-blue" />,
+    icon: <ShieldCheck className="text-white" />,
   },
   {
     title: "Encouraging Extra-Curriculars",
@@ -32,7 +32,7 @@ const reasons = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="section-padding bg-brand-blue text-white overflow-hidden relative">
+    <section className="section-padding bg-brand-blue dark:bg-slate-950 text-white overflow-hidden relative">
       <div className="absolute top-0 right-0 w-96 h-96 bg-brand-green/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-orange/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
                   transition={{ delay: index * 0.1 }}
                   className="flex flex-col gap-4"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-white/10 dark:bg-slate-900/10 flex items-center justify-center">
                     {reason.icon}
                   </div>
                   <h3 className="text-xl font-bold">{reason.title}</h3>

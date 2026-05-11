@@ -6,7 +6,7 @@ const Map = () => {
   return (
     <section
       id="location"
-      className="section-padding bg-white relative overflow-hidden"
+      className="section-padding bg-white dark:bg-[#1E293B] relative overflow-hidden"
     >
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -32,7 +32,7 @@ const Map = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-blue/90"
+            className="text-lg text-brand-blue/90 dark:text-slate-300"
           >
             Conveniently located in the heart of Science City, our campus is
             easily accessible and provides a safe, serene environment for
@@ -67,10 +67,10 @@ const Map = () => {
                   <MapPin />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-blue mb-2">
+                  <h3 className="text-xl font-bold text-brand-blue dark:text-slate-100 mb-2">
                     brainseed nextgen school School
                   </h3>
-                  <p className="text-brand-blue/85 leading-relaxed">
+                  <p className="text-brand-blue/85 dark:text-slate-300 leading-relaxed">
                     Ramachandra Residency, Hyderabad Road,
                     <br />
                     Beside CKR Function Hall, Kalwakurthy.

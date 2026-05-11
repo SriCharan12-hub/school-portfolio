@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="section-padding bg-slate-50 relative overflow-hidden"
+      className="section-padding bg-slate-50 dark:bg-slate-900 relative overflow-hidden"
     >
       <div className="container mx-auto">
         <div className="max-w-2xl mx-auto text-center">
@@ -41,7 +41,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-blue/90 mb-12"
+            className="text-lg text-brand-blue/90 dark:text-slate-300 mb-12"
           >
             Have questions? We're here to help you. Reach out to us through
             any of these channels.
@@ -68,14 +68,14 @@ const Contact = () => {
                 transition={{ delay: index * 0.1 + 0.3 }}
                 className="flex items-center gap-6 text-left"
               >
-                <div className="w-14 h-14 rounded-2xl bg-white shadow-sm flex items-center justify-center text-brand-blue border border-slate-100">
+                <div className="w-14 h-14 rounded-2xl bg-white dark:bg-[#1E293B] shadow-sm flex items-center justify-center text-brand-blue dark:text-slate-100 border border-slate-100 dark:border-slate-800">
                   {item.icon}
                 </div>
                 <div>
-                  <div className="text-sm font-bold text-brand-blue/75 uppercase tracking-widest">
+                  <div className="text-sm font-bold text-brand-blue/75 dark:text-slate-300 uppercase tracking-widest">
                     {item.title}
                   </div>
-                  <div className="text-lg font-bold text-brand-blue">
+                  <div className="text-lg font-bold text-brand-blue dark:text-slate-100">
                     {item.value}
                   </div>
                 </div>

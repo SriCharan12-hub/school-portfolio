@@ -38,7 +38,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <section id="gallery" className="section-padding bg-white">
+    <section id="gallery" className="section-padding bg-white dark:bg-[#1E293B]">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">

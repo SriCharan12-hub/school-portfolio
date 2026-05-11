@@ -43,7 +43,7 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section id="programs" className="section-padding bg-white">
+    <section id="programs" className="section-padding bg-white dark:bg-[#1E293B]">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.h4
@@ -68,7 +68,7 @@ const Programs = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-blue/90"
+            className="text-lg text-brand-blue/90 dark:text-slate-300"
           >
             We offer a diverse range of programs designed to cater to the unique
             interests and strengths of every student.
@@ -83,7 +83,7 @@ const Programs = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className={`relative group p-8 rounded-[2.5rem] ${program.lightBg} border border-slate-100 transition-all duration-500 hover:shadow-2xl overflow-hidden`}
+              className={`relative group p-8 rounded-[2.5rem] ${program.lightBg} border border-slate-100 dark:border-slate-800 transition-all duration-500 hover:shadow-2xl overflow-hidden`}
             >
               <div className="relative z-10">
                 <div
@@ -91,10 +91,10 @@ const Programs = () => {
                 >
                   {program.icon}
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-blue">
+                <h3 className="text-2xl font-bold mb-4 text-brand-blue dark:text-slate-100">
                   {program.title}
                 </h3>
-                <p className="text-brand-blue/85 leading-relaxed mb-8">
+                <p className="text-brand-blue/85 dark:text-slate-300 leading-relaxed mb-8">
                   {program.desc}
                 </p>
               </div>

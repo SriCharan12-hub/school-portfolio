@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-brand-light">
+    <div className="min-h-screen bg-brand-light dark:bg-[#0A0F1A] transition-colors duration-300">
       <Navbar />
       <main>
         <Hero />

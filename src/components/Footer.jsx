@@ -4,7 +4,7 @@ const logo =
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-blue text-white pt-24 pb-12 overflow-hidden relative">
+    <footer className="bg-brand-blue dark:bg-slate-950 text-white pt-24 pb-12 overflow-hidden relative">
       {/* Background patterns */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-green via-brand-orange to-brand-blue"></div>
 
