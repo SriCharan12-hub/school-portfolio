@@ -31,8 +31,8 @@ const images = [
   },
   {
     src: "https://images.unsplash.com/photo-1524486361537-8ad15938e1a3?auto=format&fit=crop&q=80&w=800",
-    category: "Labs",
-    title: "Computer Science Lab",
+    category: "Achievements",
+    title: "Student achievements",
   },
 ];
 
